@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -24,4 +25,10 @@ public class HelloController {
                 + ", port(local.server.port) = " + env.getProperty("local.server.port")
         );
     }
+
+    @GetMapping("/send/{content}" )
+    public String send(@PathVariable String content){
+        return "받은 데이터는 " + content + "입니다!";
+    }
+
 }
