@@ -4,7 +4,7 @@
 ```
 curl http://localhost:8080/hello
 curl http://localhost:8080/health
-curl http://localhost:8080/send/hello
+curl http://localhost:8080/send/{pathvariable}
 ```
 
 ## docker 관련 정리하기
