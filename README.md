@@ -1,9 +1,11 @@
 # demopjt 정리하기
 
 ## rest sample 호출하기
+```
 curl http://localhost:8080/hello
 curl http://localhost:8080/health
 curl http://localhost:8080/send/hello
+```
 
 ## docker 관련 정리하기
 ### dockerfile 파일 만들기
