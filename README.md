@@ -1,5 +1,8 @@
 # demopjt 정리하기
 
+## 목표
+22/07 : docker image 1개 생성 후, 3개의 인스턴스로 띄운 후 쿠버네티스로 오케스트레이션 
+
 ## rest sample 호출하기
 ```
 curl http://localhost:8080/hello
